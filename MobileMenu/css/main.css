@@ -1,0 +1,33 @@
+.img{
+float:left;
+width: 250px;
+height: auto;
+padding: 10px 5px;
+}
+.desc{
+    float:left;
+    width: 300px;
+    padding-top: 30px;
+}
+.price{
+    float: left;
+    padding-top: 20px;
+}
+.clr{
+    clear: left;
+}
+.wrapper{
+    width: 800px;
+    margin: 0 auto;
+}
+a{
+    text-decoration: none;
+    color: blACK;
+}
+a:hover{
+    color: blue;
+} 
+.top{
+    border-top:  1px solid black;
+    padding-top:10px  ;
+}
