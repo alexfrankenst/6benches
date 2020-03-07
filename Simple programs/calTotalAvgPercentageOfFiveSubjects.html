@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Avg Total Percentage</title>
+</head>
+
+<body>
+    <script>
+        var math = prompt('enter Maths marks');
+        var phy = prompt('enter Physics marks');
+        var chem = prompt('enter Chemistry marks');
+        var eng = prompt('enter English marks');
+        var sans = prompt('enter Sanskrit marks');
+        var total=(parseInt(math)+parseInt(phy)+parseInt(chem)+parseInt(eng)+parseInt(sans));
+        var avg=(total/5);
+        var perc =((total/500)*100);
+        document.write(total+"<br>"); 
+        document.write(avg+"<br>");
+        document.write(perc+"<br>");
+    </script>
+</body>
+
+</html>
